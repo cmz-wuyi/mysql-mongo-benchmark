@@ -3,6 +3,12 @@
 
 A Python-based benchmarking tool to compare the performance of MySQL (SQL) and MongoDB (NoSQL) under concurrent, mixed workloads. This script measures latency and throughput (QPS) for Read, Read/Update, and Insert operations using multithreading.
 
+## 📁 File Descriptions
+
+* `run_benchmark.py`: The main Python script that connects to the databases, runs the concurrent benchmark workloads, and prints the results.
+* `tweets.sql`: The test dataset for MySQL. This is a Git LFS pointer to a large SQL dump file for the `tweets` table.
+* `User_comment.js`: The test dataset for MongoDB. This is a Git LFS pointer to a large JSON/BSON file for the `User_comment` collection.
+
 ## 🚀 Features
 
 * **Concurrent Testing:** Uses Python's `threading` module to simulate multiple concurrent users.
@@ -19,8 +25,6 @@ A Python-based benchmarking tool to compare the performance of MySQL (SQL) and M
 * Python 3
 * `pymysql` (for MySQL)
 * `pymongo` (for MongoDB)
-* `pandas` (for results formatting)
-* `tqdm` (for progress bars)
 
 ## 📋 Prerequisites
 
