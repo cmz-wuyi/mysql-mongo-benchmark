@@ -36,8 +36,7 @@ A Python-based benchmarking tool to compare the performance of MySQL (SQL) and M
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/mysql-vs-mongo-benchmark.git](https://github.com/your-username/mysql-vs-mongo-benchmark.git)
-    cd mysql-vs-mongo-benchmark
+    git clone
     ```
 
 2.  **Install dependencies:**
